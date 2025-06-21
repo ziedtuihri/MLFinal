@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DBSCAN Clustering</title>
+</head>
+<body>
+    <h1>DBSCAN Clustering</h1>
+    <img src="data:image/png;base64,{{ k_distance_url }}" alt="K-Distance Graph">
+    <img src="data:image/png;base64,{{ scatter_plot_url }}" alt="DBSCAN Clustering Plot">
+    <p>Silhouette Score: {{ silhouette_avg }}</p>
+    <p>Number of Clusters: {{ n_clusters }}</p>
+    <p>Number of Noise Points: {{ n_noise }}</p>
+    <a href="/">Back to Home</a>
+</body>
+</html>

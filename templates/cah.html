@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CAH Clustering</title>
+</head>
+<body>
+    <h1>CAH Clustering</h1>
+    <img src="data:image/png;base64,{{ dendrogram_url }}" alt="Dendrogram Plot">
+    <img src="data:image/png;base64,{{ silhouette_plot_url }}" alt="Silhouette Scores Plot">
+    <img src="data:image/png;base64,{{ scatter_plot_url }}" alt="CAH Clustering Plot">
+    <p>Silhouette Score: {{ silhouette_avg }}</p>
+    <a href="/">Back to Home</a>
+</body>
+</html>
